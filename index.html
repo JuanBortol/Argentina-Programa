@@ -7,22 +7,41 @@
   <meta name="author" content="Juan F. Bortol, JuanBortol@gmail.com"> 
   <meta name="description" content="Portfolio personal de experiencia en la programacion, academica y laboralmente.Cuenta con contenido dinamico para su posterior edición." />
   <link href="Herramientas/bootstrap-5.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="estilos.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Portfolio Online Juan F. Bortol</title>
 </head>
 <body>
-<div class="container text-center">
-  <div class="row">
-    <div class="col">
-      <img src="imagenes/APLogoeditado.png" class= "imageAboutPage" alt=""> 
+  <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    <div class="container">
+        <img id="logoArgProg" src="imagenes/APLogoeditado.png" class= "float-start" marginRight="3" alt="" width="30" height="24"> 
+        <a class="navbar-brand " href="#">Argentina Programa #YoProgramo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                  <a class="fa fa-facebook nav-link" href="https://www.facebook.com/juan.f.bortol" ></a>
+                </li>
+                <li class="nav-item">
+                    <a class="fa fa-instagram nav-link" href="https://www.instagram.com/bortoljuan/" ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="fa fa-twitter nav-link" href="https://twitter.com/Juan_Bortol"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="fa fa-linkedin nav-link" href="https://www.linkedin.com/in/juanfbortol/"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#login">Login</a>
+                </li>
+            </ul>
+            
+        </div>
     </div>
-    <div class="col">
-      Portfolio de Juan Francisco Bortol
-    </div>
-    <div class="col">
-      Columna 3
-    </div>
-  </div>
-</div>
+</nav>
+ 
 <script src="Herramientas/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
