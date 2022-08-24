@@ -1,0 +1,131 @@
+Lista de links de programación (Hernan Borré)
+
+HTML
+
+https://www.w3schools.com/
+https://htmlcheatsheet.com/
+
+CSS (Cascade style sheets)
+
+GIT 
+
+https://youtu.be/8Qz96CAyoJs
+https://youtu.be/D2Zzn5vlVps
+https://youtu.be/SY4odtmUTBo
+https://youtu.be/gPu0EoUoGqg
+https://youtu.be/kc6vUMFAK9o
+
+
+
+
+https://argentinaprograma.inti.gob.ar/mod/page/view.php?id=566
+
+Módulo 3 - Front End - Desarrollo Web Dinámico
+Typescript, Patrón DTO 4 - Typescript
+
+Front End Dinámico - textos oficiales
+https://argentinaprograma.inti.gob.ar/mod/page/view.php?id=70
+
+Contenido teórico módulo 3 (pdf)
+https://argentinaprograma.inti.gob.ar/mod/resource/view.php?id=473
+
+Lab / tutorial paso a paso Microsoft Oficial (en inglés):
+https://docs.microsoft.com/en-us/learn/modules/typescript-get-started/
+
+1) Descargar e instalar node.js
+https://nodejs.org/en/download/
+
+2) Instalar typescritp desde gestor de paquetes npm
+npm install -g typescript
+
+3) Instalar plugins de VS CODE
+* ErrorLens https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens
+* ESLint https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+Alternativa: PLAYGROUND online https://www.typescriptlang.org/
+
+Base explicación / documento para explicar:
+https://medium.com/javascript-comunidad/typescript-fundamentos-y-ejemplos-b%C3%A1sicos-efd7ddcea90d
+
+
+LINKS RESPUESTA FORO
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
+Angular 
+https://github.com/hernanborre/mc-angular-tutorial-pasoapaso
+
+Ciclo de vida de un componente 
+
+https://www.youtube.com/watch?v=I2niAQioGvI&ab_channel=DominiCode
+
+Bases de Datos
+https://github.com/hernanborre/mc6-databases
+
+http://blog.enriqueoriol.com/2018/10/ciclos-de-vida-en-angular-la-guia-definitiva.html
+
+https://medium.com/angular-chile/angular-componentes-y-sus-ciclos-de-vida-aa639e13a688
+
+
+
+
+Bajar MariaDB / Mysql Workbench / Dbeaver
+MySQL Community Edition: https://dev.mysql.com/downloads/
+MySQL Installer for Windows (MySQL Workbench)
+Bajar DBeaver: https://dbeaver.com/download/
+
+
+LucidChart (para diseñar los graficos entidad/relación)
+Formas normales(o reglas) de bases de datos. 
+
+APRENDER PARA LA PROXIMA CLASE
+
+https://www.lucidchart.com/pages/es/diagrama-de-objetos-uml
+https://github.com/hernanborre/mc8-poo-java
+
+Proceso de petición protocolo HTTP (GET, POST, PUT, DELETE)
+JSON API REST (instalar java springboot)
+
+VER SI O SI O SI O SI MASTERCLASS 9 9- Java web Servlets + JSP+ Conexión con base de datos
+
+
+
+
+Y SI HAY TIEMPO... 
+https://www.youtube.com/playlist?list=PLEenA5CMeQZ0P_S1Cv2ZGrVsc6TIJ3LMx (JAVA PRACTICA)
+
+
+
+https://github.com/hernanborre/mc8-poo-java
+
+
+https://github.com/hernanborre/mc10-springboot-mysql
+https://youtu.be/tSFmqCatTXo
+
+
+LOCO QUE HACE EL PROYECTO
+
+https://www.youtube.com/channel/UCangFHkwsG4GKAt_QdEpSqQ
+
+
+Para poder implementar el login (aplicando token JWT) deberás pasar por la masterclass del modulo 8:
+https://argentinaprograma.inti.gob.ar/mod/page/view.php?id=559
+Lo referente a la generación de token en java lo veras en la masterclass del modulo 9:  https://argentinaprograma.inti.gob.ar/mod/page/view.php?id=340
+A su vez, te paso algunos tutoriales que aplican login/registro con el uso de token JWT en Angular
+****Español: https://codingpotions.com/angular-login-sesion
+Ingles: https://www.bezkoder.com/angular-12-jwt-auth/
+
+
+
+https://blog.softtek.com/es/autenticando-apis-con-spring-y-jwt
+
+https://t.me/Argentina_programa (GRUPO DE ARGENTINA PROGRAMA EN TELEGRAM)
+
+COMO SUBIR EL PROYECTO A LA NUBE (ANTEULTIMA BANDERITA DEL MODULO NUEVE)
+
+
+

@@ -1,47 +1,298 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Juan F. Bortol, JuanBortol@gmail.com"> 
-  <meta name="description" content="Portfolio personal de experiencia en la programacion, academica y laboralmente.Cuenta con contenido dinamico para su posterior edición." />
-  <link href="Herramientas/bootstrap-5.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="estilos.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Portfolio Online Juan F. Bortol</title>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-    <div class="container">
-        <img id="logoArgProg" src="imagenes/APLogoeditado.png" class= "float-start" marginRight="3" alt="" width="30" height="24"> 
-        <a class="navbar-brand " href="#">Argentina Programa #YoProgramo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Juan F. Bortol, JuanBortol@gmail.com" />
+    <meta
+      name="description"
+      content="Portfolio personal de experiencia en la programacion, academica y laboralmente.
+      Cuenta con contenido dinámico para su posterior edición."
+    />
+    <!--Bootstrap-->
+    <link
+      href="Herramientas/bootstrap-5.2.0-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!--hoja de estilos-->
+    <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <!--fuente adicional-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/4a139a1b7e.js" crossorigin="anonymous"></script>
+    <title>Portfolio Online Juan F. Bortol</title>
+  </head>
+  <body>
+    <!--==========================
+    Header, barra. 
+    ============================-->
+    <nav class="navbar navbar-expand-lg fixed-top py-0 navbarScroll">
+      <div class="container">
+        <a class="navbar-brand nav-link" href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa">
+          <img src="imagenes/logoArgProg.png"  alt="">
+        </a>   
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#sociales"
+          aria-controls="sociales"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item active">
-                  <a class="fa fa-facebook nav-link" href="https://www.facebook.com/juan.f.bortol" ></a>
-                </li>
-                <li class="nav-item">
-                    <a class="fa fa-instagram nav-link" href="https://www.instagram.com/bortoljuan/" ></a>
-                </li>
-                <li class="nav-item">
-                  <a class="fa fa-twitter nav-link" href="https://twitter.com/Juan_Bortol"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="fa fa-linkedin nav-link" href="https://www.linkedin.com/in/juanfbortol/"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#login">Login</a>
-                </li>
-            </ul>
-            
+        <div class="collapse navbar-collapse" id="sociales">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a
+                class="fa fa-facebook nav-link"
+                href="https://www.facebook.com/juan.f.bortol"
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="fa fa-instagram nav-link"
+                href="https://www.instagram.com/bortoljuan/"
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="fa fa-twitter nav-link"
+                href="https://twitter.com/Juan_Bortol"
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="fa fa-linkedin nav-link"
+                href="https://www.linkedin.com/in/juanfbortol/"
+              ></a>
+            </li>
+            <div class="container " id="botonLogin">
+              <button class="btn btn-success" href="login" type="submit">Login</button>
+            </div>
+        </div>
+      </div>
+    </nav>
+    <!--==========================
+    Banner con foto y leyenda
+    ============================-->
+     <section class="bgimage section" id="banner">
+      <div class="container-fluid">
+          <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+              <h2 class="hero_title">Juan Francisco Bortol</h2>
+              <p class="hero_desc">I am an entrepreneur in Rio Cuarto</p>
+          </div>
+          </div>
+      </div>
+  </section>
+  <!--==========================
+    Sección Acerca de...
+    ============================-->
+  <section class="section" id="acercaDe">
+    <div class="container mt-4 pt-4">
+        <h1 class="text-center">Acerca de mi</h1>
+        <div class="row mt-4">
+            <div class="col-lg-2">
+                <img src="imagenes/Foto.jpg" class="imageAboutPage" alt="Foto de perfil">
+            </div>
+
+            <div class="col-lg-10">
+                <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                    
+                </p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Nombre: Juan Francisco Bortol</li>
+                            <li>Edad: 36</li>
+                            <li>Occupation: Fullstack developer Jr.</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                          <li>Nombre: Juan Francisco Bortol</li>
+                          <li>Edad: 36</li>
+                          <li>Occupation: Fullstack developer Jr.</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row-lg-12 mt-3">
+              <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              </p>
+            </div>
+        </div>
+</section>
+<!--==========================
+    Experiencia. (historial laboral)
+    ============================-->
+<section class="section" id="experiencia">
+  <div class="container">
+      <h1 class="text-center">Experiencia Laboral</h1>
+      <!--Segunda Fila-->
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class="fas servicesIcon fa-clock"></i>
+                      <h4 class="card-title mt-3">Desarrollo web</h4>
+                      <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                          Some quick example text to build on the card title and make up the bulk of the card's content.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+          <div class="col-lg-8 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-layer-group'></i>
+                      <h4 class="card-title mt-3">Diseño Web</h4>
+                      <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                          Some quick example text to build on the card title and make up the bulk of the card's content.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+      <!--Segunda Fila-->
+      <div class="row">
+          <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-search'></i>
+                      <h4 class="card-title mt-3">CEO</h4>
+                      <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                          Some quick example text to build on the card title and make up the bulk of the card's content.
+                      </p>
+                  </div>
+              </div>  
+          </div>
+
+          <div class="col-lg-8 mt-4">
+              <div class="card servicesText">
+                  <div class="card-body">
+                      <i class='fas servicesIcon fa-shield-alt'></i>
+                      <h4 class="card-title mt-3">DevOps</h4>
+                      <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                          Some quick example text to build on the card title and make up the bulk of the card's content.
+                      </p>
+                  </div>
+              </div>  
+          </div>     
+      </div>
+  </div>
+</section>
+<!--==========================
+    Educacion y formacion
+    ============================-->
+<section class="section" id="educacion">
+      <div class="container">
+          <h1 class="text-center">Educación y formación académica</h1>
+          <!--Segunda Fila-->
+          <div class="row">
+              <div class="col-lg-4 mt-4">
+                  <div class="card servicesText">
+                      <div class="card-body">
+                          <i class="fas servicesIcon fa-clock"></i>
+                          <h4 class="card-title mt-3">Desarrollo web</h4>
+                          <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                              Some quick example text to build on the card title and make up the bulk of the card's content.
+                          </p>
+                      </div>
+                  </div>  
+              </div>
+              <div class="col-lg-8 mt-4">
+                  <div class="card servicesText">
+                      <div class="card-body">
+                          <i class='fas servicesIcon fa-layer-group'></i>
+                          <h4 class="card-title mt-3">Diseño Web</h4>
+                          <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                              Some quick example text to build on the card title and make up the bulk of the card's content.
+                          </p>
+                      </div>
+                  </div>  
+              </div>
+          <!--Segunda Fila-->
+          <div class="row">
+              <div class="col-lg-4 mt-4">
+                  <div class="card servicesText">
+                      <div class="card-body">
+                          <i class='fas servicesIcon fa-search'></i>
+                          <h4 class="card-title mt-3">CEO</h4>
+                          <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                              Some quick example text to build on the card title and make up the bulk of the card's content.
+                          </p>
+                      </div>
+                  </div>  
+              </div>
+    
+              <div class="col-lg-8 mt-4">
+                  <div class="card servicesText">
+                      <div class="card-body">
+                          <i class='fas servicesIcon fa-shield-alt'></i>
+                          <h4 class="card-title mt-3">DevOps</h4>
+                          <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                              Some quick example text to build on the card title and make up the bulk of the card's content.
+                          </p>
+                      </div>
+                  </div>  
+              </div>     
+          </div>
+      </div>
+  </section>
+  <!--==========================
+    Hard & soft skills
+    ============================-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-lg-4">
+                <div class="progress blue">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">90%</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-4">
+                <div class="progress yellow">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">75%</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-4">
+                <div class="progress pink">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">60%</div>
+                </div>
+            </div>
         </div>
     </div>
-</nav>
- 
-<script src="Herramientas/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
-</body>
+
+
+
+
+    <script src="script.js" ></script>
+    <script src="Herramientas/bootstrap-5.2.0-dist/js/bootstrap.min.js" src="script.js" ></script>
+  </body>
 </html>
